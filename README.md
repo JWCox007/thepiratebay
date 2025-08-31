@@ -1,32 +1,4 @@
-The Pirate Bay node.js client
-=============================
 
-![Test](https://github.com/t3chnoboy/thepiratebay/workflows/Test/badge.svg)
-[![NPM version](https://badge.fury.io/js/thepiratebay.svg)](http://badge.fury.io/js/thepiratebay)
-[![Dependency Status](https://img.shields.io/david/t3chnoboy/thepiratebay.svg)](https://david-dm.org/t3chnoboy/thepiratebay)
-[![npm](https://img.shields.io/npm/dm/thepiratebay.svg?maxAge=2592000)](https://npm-stat.com/charts.html?package=thepiratebay)
-
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/The_Pirate_Bay_logo.svg" width="300px"/>
-</p>
-
-## Installation
-
-Install using npm:
-```bash
-# NPM
-npm install thepiratebay
-# Yarn
-yarn add thepiratebay
-```
-
-## Usage
-
-```js
-import PirateBay from 'thepiratebay'
-
-const searchResults = await PirateBay.search('harry potter', {
-  category: 'video',
   page: 3
 })
 console.log(searchResults)
